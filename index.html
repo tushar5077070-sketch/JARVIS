@@ -1,0 +1,70 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JARVIS | Personal AI</title>
+  </head>
+
+  <body>
+    <div class="dashboard">
+
+      <header>
+        <h2 class="logo">J.A.R.V.I.S</h2>
+        <div class="status">● SYSTEM ONLINE</div>
+      </header>
+
+      <main>
+
+        <section class="panel">
+          <h2>MY TASKS</h2>
+
+          <input
+            id="task-input"
+            type="text"
+            placeholder="Enter a task..."
+          />
+
+          <button id="add-task">ADD TASK +</button>
+
+          <div id="task-list"></div>
+        </section>
+
+        <section class="center">
+          <div id="jarvis-core"></div>
+
+          <h1>JARVIS</h1>
+          <p>PERSONAL INTELLIGENCE SYSTEM</p>
+
+          <div id="clock"></div>
+          <div id="date"></div>
+
+          <button id="voice-button">ACTIVATE VOICE</button>
+
+          <p id="assistant-message">
+            Awaiting your command...
+          </p>
+        </section>
+
+        <section class="panel">
+          <h2>SYSTEM STATUS</h2>
+
+          <div class="task">AI CORE — INITIALIZED</div>
+          <div class="task">3D ENGINE — ACTIVE</div>
+          <div class="task">VOICE MODULE — READY</div>
+          <div class="task">CAMERA — STANDBY</div>
+          <div class="task">GEMINI AI — NOT CONNECTED</div>
+        </section>
+
+      </main>
+
+      <footer>
+        JARVIS PERSONAL AI SYSTEM | PROTOTYPE 01
+      </footer>
+
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
